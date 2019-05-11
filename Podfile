@@ -2,10 +2,9 @@
 platform :ios, '11.0'
 
 target 'Lamptest' do
-  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for Lamptest
+  pod 'CSV.swift', '2.4.0'
 
   target 'LamptestTests' do
     inherit! :search_paths
